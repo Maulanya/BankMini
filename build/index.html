@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Bank Mini</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h1>Bank Mini</h1>
+    </nav>
+  </header>
+  <section class="main">
+    <div class="data" id="data-parrent">
+  
+      <ul id="datalist">
+        <h1 id="userdatas" style="list-style: none;">USER DATA</h1>
+        <h1>Balance: <span id="balance">0</span></h1>
+        <br>
+        <li><h1>Client: <span id="client">User</span></h1></li>
+        <li><h1>Bank: <span id="bank">0</span></h1></li>
+      </ul>
+    </div>
+    <div class="form">
+      <div class="formelement">
+        <div class="input">
+          <label for="namaclient">Nama Client</label>
+          <input type="text" id="namaclient" name="namaclient">
+        </div>
+        <div class="input">
+          <label for="deposit">Deposit</label>
+          <input type="text" id="deposit" name="deposit">
+        </div>
+        <h3>TAKE MONEY</h3>
+        <div class="input">
+          <label for="userclient">Nama Client</label>
+          <input type="text" id="userclient" name="userclient">
+        </div>
+        <div class="input">
+          <label for="getbank">Money Taked</label>
+          <input type="text" id="getbank" name="getbank">
+        </div>
+        <input type="button" value="DEPOSIT" id="depobtn">
+        <input type="button" value="TAKE MONEY" id="takemoney">
+      </div>
+      <img src="bankmini.png" alt="">
+    </div>
+  </section>
+  
+
+  <script src="script.js"></script>
+</body>
+
+</html>
